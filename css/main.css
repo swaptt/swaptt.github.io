@@ -71,7 +71,8 @@
 }
 
 body {
-  color: #777777;
+  background-color: #191919 !important;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -140,7 +141,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #ffffff;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -153,7 +154,7 @@ h4, h5, h6 {
   margin-top: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #222222;
+  color: #ffffff;
 }
 
 h1, .h1 {
@@ -178,7 +179,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 14px;
-  color: #222222;
+  color: #ffffff;
 }
 
 td, th {
@@ -2091,7 +2092,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Styling */
 
 #logo a{
-  color: #f9a303;
+  color: #ffb54d;
   font-weight: 600;
   font-size: 22px;
 }
@@ -2101,9 +2102,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  font-size: 12px;
-  text-transform: uppercase;
+  font-size: 17px;
+  text-transform: capitalize;
   outline: none;
+}
+.nav-menu a:hover {
+  color: #ffb54d;
 }
 
 .nav-menu > li {
@@ -2348,8 +2352,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   bottom: 0;
 }
-
-
+.sliderbtn1{
+  background-color: #ffb54d;
+  color: #191919 !important;
+  border: 1px solid #191919 !important;
+}
+.sliderbtn2{
+  border: 1px solid #ffb54d !important;
+}
+.sliderbtn1:hover{
+  color: #ffffff !important;
+  background-color: #635a4d !important;
+  border: 1px solid #ffb54d !important;
+}
+.sliderbtn2:hover{
+  background-color: #ffb54d !important;
+  color: #191919 !important;
+  border: 1px solid #191919 !important;
+}
 /* Services Css */
 
 .page-title > h2 {
@@ -2359,7 +2379,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 24px;
 }
 .single-service {
-    background-color: #0c0c0dab;
+    /*background-color: #0c0c0dab;*/
     color: #ffffff;
     padding: 30px 15px;
     box-shadow: 0 0 0 0 #888888;
@@ -2368,7 +2388,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-transition: .4s;
     transition: .4s;
     text-align: center;
+    border: 2px solid #ffb54d;
 }
+.single-service h3{
+  color: #ffb54d !important;
+}
+
 .single-service:hover {
     box-shadow: 0 40px 30px -26px #888888;
     -webkit-transform: translate(0px, -6px);
@@ -2385,7 +2410,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 0 15px;
 }
 .single-service a {
-    color: #ffffff;
+    color: #ffb54d;
     display: inline-block;
 }
 .single-service a:hover {
@@ -2397,7 +2422,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Features Css */
 
 .feature-area {
-  background-color: #f9f9ff;
+  background-color: #191919;
 }
 
 .feature-area .header-text {
@@ -2414,6 +2439,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-single h3{
+    color: #ffb54d;
     padding-top: 1rem;
     font-size: 20px;
     text-transform: uppercase;
@@ -2437,7 +2463,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .feature-icon {
     width: 6rem;
     height: 6rem;
-    color: #0c0c0dab;
+    color: #ffb54d;
     text-align: center;
     margin-bottom: 1rem;
     -moz-transition: all 1s;
@@ -2452,7 +2478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-icon:hover {
-    color: #82caff;
+    color: #ffffff;
 }
 
 .feature-img {
@@ -2464,10 +2490,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .facts-area {
-  background:  -moz-linear-gradient(rgba(46, 45, 47, 0.68), rgb(2, 2, 2)),url(../img/fact.jpg);
-  background:  -webkit-linear-gradient(rgba(46, 45, 47, 0.68), rgb(2, 2, 2)),url(../img/fact.jpg);
-  background:  -ms-linear-gradient(rgba(90, 88, 92, 0.68), rgb(255, 0, 0)),url(../img/fact.jpg);
-  background:  linear-gradient(rgba(128, 0, 255, 0.68), rgb(2, 2, 2)),url(../img/fact.jpg);
+  /*background:  -moz-linear-gradient(rgba(46, 45, 47, 0.68), rgb(2, 2, 2)),url(../img/bg2.jpg);
+  background:  -webkit-linear-gradient(rgba(46, 45, 47, 0.68), rgb(2, 2, 2)),url(../img/bg2.jpg);
+  background:  -ms-linear-gradient(rgba(90, 88, 92, 0.68), rgb(121, 120, 120)),url(../img/bg2.jpg);*/
+  background:  linear-gradient(rgba(49, 49, 49, 0.68), rgb(2, 2, 2)),url(../img/bg2.jpg);
   position: relative;
   z-index: 1;
   background-position: bottom center;
@@ -2476,7 +2502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .counter{
     font-family: 'PT Sans', sans-serif;
-    color: #fff;
+    color: #ffb54d;
     text-align: center;
     box-shadow: 0 6px 6px -7px #000 inset;
     position: relative;
@@ -2500,7 +2526,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: capitalize;
     letter-spacing: 1px;
     margin: 0 0 20px 0;
-    color: #fff;
+    color: #ffb54d;
 }
 .counter .counter-value{
     font-size: 40px;
@@ -2509,7 +2535,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block;
 }
 .counter .counter-icon{
-    color:  #fff;
+    color:  #ffb54d;
     font-size: 40px;
     transition:all 0.3s;
 }
@@ -2675,7 +2701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pricingTable .title{
     font-size: 28px;
     font-weight: 700;
-    color: #fff;
+    color: #ffb54d;
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
@@ -2683,14 +2709,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline-block;
     font-size: 25px;
     font-weight: 900;
-    color: #fff;
+    color: #ffb54d;
     margin-right: 3px;
 }
 .pricingTable .price-value{
     display: inline-block;
     font-size: 25px;
     font-weight: 900;
-    color: #fff;
+    color: #ffb54d;
     padding-right: 5px;
 }
 .pricingTable .month{
@@ -2719,10 +2745,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pricingTable .pricingTable-signup{
     display: block;
     padding: 10px 0;
-    background: #464646;
+    background: #ffb54d;
     font-size: 14px;
     font-weight: 900;
-    color: #fff;
+    color: #191919;
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
 }
@@ -2730,7 +2756,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     box-shadow: 0 0 10px #0f0b0b;
 }
 .pricingTable:hover .pricingTable-signup{
-    background: #0f0b0b;
+    background: #635a4d;
+    color: #ffb54d;
 }
 @media only screen and (max-width: 990px){
     .pricingTable{ margin-bottom: 40px; }
@@ -2903,7 +2930,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #202021;
+    color: #ffb54d;
     text-transform: uppercase;
     margin-bottom: 7px;
 }
@@ -2911,7 +2938,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block;
     font-size: 17px;
     font-weight: 600;
-    color: #707070;
+    color: #ffffff;
     text-transform: capitalize;
 }
 @media only screen and (max-width: 990px){
@@ -2934,7 +2961,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(29, 28, 28, 0.85);
+  background-color: rgba(0, 0, 0, 0.85);
   left: 0;
   right: 0;
   bottom: 0;
@@ -2962,7 +2989,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .quick_link li a:hover {
   list-style: none;
-  color: #fff;
+  color: #ffb54d;
 }
 
 .quick_link li a {
@@ -2972,7 +2999,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area h6 {
-  color: #fff;
+  color: #ffb54d;
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 600;
@@ -2993,7 +3020,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-social a:hover i{
-  color: #000;
+  color: #fff;
 
 }
 
@@ -3019,7 +3046,7 @@ address .my_address li a {
 
 address .my_address li a:hover {
   font: 400 14px/28px "Roboto", sans-serif;
-  color: #fff;
+  color: #ffb54d;
 }
 
 address .my_address li a i {
@@ -3049,7 +3076,7 @@ address .my_address li a i {
 
 .footer-social a:hover {
   color: #000;
-  background: #fff;
+  background: #ffb54d;
   border: 1px solid #fff;
 
 }
@@ -3487,7 +3514,7 @@ address .my_address li a i {
 }
 
 .contact-page-area {
-  background: #f9f9ff;
+  background: #191919;
 }
 
 .contact-page-area .map-wrap {
@@ -3526,10 +3553,13 @@ address .my_address li a i {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  border: 1px solid #ffb54d;
+  color: #ffffff;
 }
 
 .contact-page-area .form-area .primary-btn:hover {
-  border: 1px solid #5a5a5d;
+  border: 1px solid #ffb54d;
+  background: #ffb54d;
   color: #5a5a5d !important;
 }
 
@@ -3552,7 +3582,7 @@ address .my_address li a i {
 .contact-page-area .single-contact-address .lnr {
   font-size: 30px;
   font-weight: 500;
-  color: #5a5a5d;
+  color: #ffb54d;
   margin-right: 30px;
 }
 
