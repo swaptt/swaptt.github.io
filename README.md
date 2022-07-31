@@ -32,7 +32,7 @@ show the results of vulnerability which is easily understood without extensive k
 # Methodolog
 ![image](https://user-images.githubusercontent.com/97851226/182014872-0a96eb5b-2f86-42fe-a68f-e5b6801eb948.png)
 
-Technologies to be used![image](https://user-images.githubusercontent.com/97851226/182014887-18c27981-9384-4121-bdec-f0a9159a8089.png)
+# Technologies to be used
 
 Operating System - Kali Linux
 
@@ -47,7 +47,7 @@ Heroku
 Cloud Web Hosting is needed to host the project online and make it available 24/7. As the project consist of web application so hosting is necessary for the project.
 
 
-# PROJECT DELIVERABLES
+# Project Deliverables
 The main objective of our project will be to detect the following:
 Detect Target Technology
 Detect CVE (Common Vulnerabilities and Exposures)
@@ -62,7 +62,7 @@ Directory Scanning (In Progress)
 SSH Dictionary Attack on target Server (In Progress)
 
 
-# CONCLUSION
+# Conclusion
 Website security is a critical part of the web applications for any organization.
 The only way to combat the Web application security threat is to proactively scan websites and Web applications for vulnerabilities and then fix them.
 Implementing a web application scanning solution must be a crucial part of any organization’s overall strategy.
